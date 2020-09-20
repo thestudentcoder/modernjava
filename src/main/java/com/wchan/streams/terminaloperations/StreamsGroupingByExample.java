@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class StreamsGroupingByExample {
 
     // Equivalent to group by in sql
-    // Used to group elements based on proprety
+    // Used to group elements based on property
     // Output of groupingBy collector is a Map<K, V>
     // 3 different versions of groupingBy()
     // groupBy(classifier), groupingBy(classifier, downstream), groupingBy(classifier, supplier, downstream)
@@ -89,12 +89,12 @@ public class StreamsGroupingByExample {
 
 
     public static void main(String[] args) {
-//        groupStudentsByGender();
+        groupStudentsByGender();
 //        customizedGroupingBy();
 //        twoLevelGrouping_1();
 //        twoLevelGrouping_2();
 //        threeArgumentGroupBy();
-        calculateTopGpa();
-        calculateLeastGpa();
+//        calculateTopGpa();
+//        calculateLeastGpa();
     }
 }

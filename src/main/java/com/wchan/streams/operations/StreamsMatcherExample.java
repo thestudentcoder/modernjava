@@ -4,7 +4,7 @@ import com.wchan.data.StudentDataBase;
 
 public class StreamsMatcherExample {
 
-    // anyMatch, allMatch, noneMatch all take in prediates and return a Boolean as output
+    // anyMatch, allMatch, noneMatch all take in predicates and return a Boolean as output
     // anyMatch() returns true is any of the elements matches the predicate
     // allMatch() return true if all the elements in the stream matches the predicate
     // noneMatch returns true if none of the elements int he stream matches the predicate
